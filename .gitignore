@@ -1,0 +1,8 @@
+/desktop.ini
+/nlp/User Portrait/Text Vectorization/doc2vec/data/zhwiki-latest-pages-articles.xml.bz2
+/nlp/User Portrait/Text Vectorization/word2vec/data/zhwiki-latest-pages-articles.xml.bz2
+/.venv/
+/nlp/model/models/
+**/.idea
+/nlp/Train/
+**/__pycache__
