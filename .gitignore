@@ -12,8 +12,8 @@ nlp/dataset/img3.png
 nlp/dataset/company_loc_triple.csv
 nlp/dataset/data_all.csv
 nlp/dataset/img4.png
-nlp/dataset/process/tokens.csv
-nlp/dataset/process/tokens_after_hanlp.csv
+nlp/dataset/process/hanlp_tokens/tokens.csv
+nlp/dataset/process/hanlp_tokens/tokens_after_hanlp.csv
 nlp/extractor/output.csv
 nlp/User Portrait/Text Vectorization/doc2vec/documents.pkl
 nlp/User Portrait/Text Vectorization/word2vec/data/reduce_zhiwiki.txt

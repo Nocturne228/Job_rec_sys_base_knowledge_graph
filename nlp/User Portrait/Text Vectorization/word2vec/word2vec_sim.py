@@ -5,6 +5,7 @@ import gensim
 import numpy as np
 from keyword_extract import *
 
+
 wordvec_size = 100
 
 
@@ -35,14 +36,14 @@ def word2vec(file_name, model):
         return word_vec_all
 
 
-def simlarityCalu(vector1, vector2):
+def calc_similarity(vector1, vector2):
     vector1Mod = np.sqrt(vector1.dot(vector1))
     vector2Mod = np.sqrt(vector2.dot(vector2))
     if vector2Mod != 0 and vector1Mod != 0:
-        simlarity = (vector1.dot(vector2)) / (vector1Mod * vector2Mod)
+        similarity = (vector1.dot(vector2)) / (vector1Mod * vector2Mod)
     else:
-        simlarity = 0
-    return simlarity
+        similarity = 0
+    return similarity
 
 
 if __name__ == '__main__':
@@ -58,4 +59,4 @@ if __name__ == '__main__':
     print(p1_vec)
     print(p2_vec)
 
-    print(simlarityCalu(p1_vec, p2_vec))
+    print(calc_similarity(p1_vec, p2_vec))
